@@ -1,0 +1,10 @@
+.gameboard{
+    background-color: rgb(202, 174, 140);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 50px;
+}

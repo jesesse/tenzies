@@ -1,0 +1,21 @@
+.die {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.632);
+}
+
+.die--locked {
+    box-shadow: 0px 0px 20px rgb(0, 172, 0);
+    border-radius: 10px;
+}
+
+.die:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 172, 0, 0.435);
+}
+
+.die--locked:hover{
+    cursor: pointer;
+}
+
